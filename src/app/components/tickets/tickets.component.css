@@ -1,0 +1,40 @@
+.box{
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.box1{
+    margin-left: 15px;
+   text-align: center;
+}
+.by{
+    color: white;
+    font-size: larger;
+}
+.time{
+    font-size: 2em;
+}
+
+.city{
+    font-size: 0.7em;
+    font-weight: bold;
+}
+.date{
+    font-size: 0.7em;
+    color: #c7c7c7;
+}
+.transfer{
+    text-align: center;
+    color: lightgray;
+    margin-top: 5%;
+}
+hr{
+    margin-top: 0.5rem;
+}
+input{
+    margin-left: 10px;
+}
+.sum{
+    font-size: 2em;
+}

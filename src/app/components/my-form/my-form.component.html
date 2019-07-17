@@ -1,0 +1,33 @@
+<form>
+    <div class="form-group">
+        <label>ВАЛЮТА</label>
+        <div class="form-group">
+            <button type="button" (click)="btnRub()" class="btn btn-primary">RUB</button>
+            <button type="button" (click)="btnUsd()" class="btn btn-primary">USD</button>
+            <button type="button" (click)="btnEur()" class="btn btn-primary">EUR</button>
+        </div>
+    </div>
+    <label>КОЛИЧЕСТВО ПЕРЕСАДОК</label>
+    <div class="form-group">
+        <div class="form-check">
+            <input type="checkbox" (change)="changecheck(-1)" class="form-check-input" id="checkAll">
+            <label class="form-check-label" for="checkAll">Все</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" (change)="changecheck(0)" class="form-check-input" id="checkNull">
+            <label class="form-check-label" for="checkAll">Без пересадок</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" (change)="changecheck(1)" class="form-check-input" id="checkOne">
+            <label class="form-check-label" for="checkOne">1 пересадка</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" (change)="changecheck(2)" class="form-check-input" id="checkTwo">
+            <label class="form-check-label" for="checkTwo">2 пересадки</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" (change)="changecheck(3)" class="form-check-input" id="checkThree">
+            <label class="form-check-label" for="checkThree">3 пересадки</label>
+        </div>
+    </div>
+</form>
